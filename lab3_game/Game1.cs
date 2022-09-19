@@ -72,11 +72,7 @@ namespace lab3_game
             GraphicsDevice.Clear(new Color(85, 133, 50));
             spriteBatch.Begin();
             //cloud
-            for (int i = 0; i < 4; i++)
-            {
-                spriteBatch.Draw(cloudTexture, cloudPos[i], null, Color.White, 0, Vector2.Zero, scaleCloud[i], 0, 0);
-            }
-            spriteBatch.End();
+            
 
             // TODO: Add your drawing code here
 
